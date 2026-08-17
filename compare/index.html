@@ -1,0 +1,1616 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <link rel="icon" href="/competitor-design-intelligence-dashboard/static/img/favicon.svg" type="image/svg+xml">
+  <title>产品参数对比 · Design Signal</title>
+  <link rel="stylesheet" href="/competitor-design-intelligence-dashboard/static/css/app.css">
+</head>
+<body>
+  <header class="app-header">
+    <a class="brand-lockup" href="/competitor-design-intelligence-dashboard/" aria-label="返回今日情报">
+      <span class="signal-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span class="brand-copy"><strong>DESIGN SIGNAL</strong><small>产品与设计情报</small></span>
+    </a>
+    <nav class="main-nav" aria-label="主导航">
+      <a href="/competitor-design-intelligence-dashboard/">今日情报</a>
+      <a href="/competitor-design-intelligence-dashboard/#products">产品库</a>
+      <a href="/competitor-design-intelligence-dashboard/compare">参数对比</a>
+      <a href="/competitor-design-intelligence-dashboard/#brands">品牌库</a>
+      <a href="/competitor-design-intelligence-dashboard/#signals">情报流</a>
+    </nav>
+    <span class="header-label">COMPETITIVE INTELLIGENCE</span>
+  </header>
+
+  <main class="workspace">
+    
+      
+    
+    
+  <nav class="breadcrumb"><a href="/competitor-design-intelligence-dashboard/">今日情报</a><span>/</span><strong>产品参数对比</strong></nav>
+
+  <section class="compare-hero">
+    <div>
+      <p class="overline">PRODUCT BENCHMARK</p>
+      <h1>重点产品参数对比</h1>
+      <p>在 7 个品牌、21 款重点产品中选择最多 4 款，快速比较产品形态、容量、功率、防护、尺寸、质保与官网售价状态。</p>
+    </div>
+    <div class="compare-hero-stat"><strong>21</strong><span>款重点产品<br>参数来自品牌官网</span></div>
+  </section>
+
+  <section class="compare-selector" aria-label="选择需要对比的产品">
+    <div class="compare-toolbar">
+      <div>
+        <p class="overline">SELECT PRODUCTS</p>
+        <h2>选择对比产品</h2>
+      </div>
+      <div class="compare-filters">
+        <label><span>品牌</span><select data-compare-brand><option value="">全部品牌</option><option value="Anker SOLIX">Anker SOLIX</option><option value="Sigenergy">Sigenergy</option><option value="EcoFlow">EcoFlow</option><option value="Huawei FusionSolar">Huawei FusionSolar</option><option value="FoxESS">FoxESS</option><option value="Dyness">Dyness</option><option value="MARSTEK">MARSTEK</option></select></label>
+        <label><span>分类</span><select data-compare-category><option value="">全部分类</option><option value="户储一体机">户储一体机</option><option value="微逆一体机">微逆一体机</option><option value="其他储能类设备">其他储能类设备</option></select></label>
+        <label class="compare-search"><span>搜索</span><input type="search" placeholder="输入产品名称" data-compare-search></label>
+      </div>
+    </div>
+
+    <div class="compare-selection-status">
+      <p>已选择 <strong data-selected-count>4</strong> / 4 款</p>
+      <span data-compare-message>选择 2–4 款产品，更容易看出定位与规格差异。</span>
+      <button type="button" data-clear-compare>清空选择</button>
+    </div>
+
+    <div class="compare-picker-grid">
+      
+        <label class="compare-picker-card" data-product-card data-brand="Anker SOLIX" data-category="户储一体机" data-name="anker solix x1">
+          <input type="checkbox" value="anker-solix-x1" data-product-toggle checked>
+          <span class="picker-check">✓</span>
+          <span class="picker-image">
+            <img src="/competitor-design-intelligence-dashboard/static/img/products/anker-solix-x1.webp" alt="Anker SOLIX X1 产品外观" loading="lazy">
+          </span>
+          <span class="picker-copy"><small>Anker SOLIX · 户储一体机</small><strong>Anker SOLIX X1</strong></span>
+        </label>
+      
+        <label class="compare-picker-card" data-product-card data-brand="Anker SOLIX" data-category="微逆一体机" data-name="solarbank 3 e2700 pro">
+          <input type="checkbox" value="anker-solarbank-3-pro" data-product-toggle >
+          <span class="picker-check">✓</span>
+          <span class="picker-image">
+            <img src="/competitor-design-intelligence-dashboard/static/img/products/anker-solarbank-3-pro.webp" alt="Solarbank 3 E2700 Pro 产品外观" loading="lazy">
+          </span>
+          <span class="picker-copy"><small>Anker SOLIX · 微逆一体机</small><strong>Solarbank 3 E2700 Pro</strong></span>
+        </label>
+      
+        <label class="compare-picker-card" data-product-card data-brand="Anker SOLIX" data-category="微逆一体机" data-name="solarbank 2 ac">
+          <input type="checkbox" value="anker-solarbank-2-ac" data-product-toggle >
+          <span class="picker-check">✓</span>
+          <span class="picker-image">
+            <b>An</b>
+          </span>
+          <span class="picker-copy"><small>Anker SOLIX · 微逆一体机</small><strong>Solarbank 2 AC</strong></span>
+        </label>
+      
+        <label class="compare-picker-card" data-product-card data-brand="Sigenergy" data-category="户储一体机" data-name="sigenstor">
+          <input type="checkbox" value="sigenergy-sigenstor" data-product-toggle checked>
+          <span class="picker-check">✓</span>
+          <span class="picker-image">
+            <img src="/competitor-design-intelligence-dashboard/static/img/products/sigenergy-sigenstor.webp" alt="SigenStor 产品外观" loading="lazy">
+          </span>
+          <span class="picker-copy"><small>Sigenergy · 户储一体机</small><strong>SigenStor</strong></span>
+        </label>
+      
+        <label class="compare-picker-card" data-product-card data-brand="Sigenergy" data-category="其他储能类设备" data-name="sigenstack">
+          <input type="checkbox" value="sigenergy-sigenstack" data-product-toggle >
+          <span class="picker-check">✓</span>
+          <span class="picker-image">
+            <img src="/competitor-design-intelligence-dashboard/static/img/products/sigenergy-sigenstack.webp" alt="SigenStack 产品外观" loading="lazy">
+          </span>
+          <span class="picker-copy"><small>Sigenergy · 其他储能类设备</small><strong>SigenStack</strong></span>
+        </label>
+      
+        <label class="compare-picker-card" data-product-card data-brand="Sigenergy" data-category="其他储能类设备" data-name="sigen battery">
+          <input type="checkbox" value="sigenergy-sigen-battery" data-product-toggle >
+          <span class="picker-check">✓</span>
+          <span class="picker-image">
+            <img src="/competitor-design-intelligence-dashboard/static/img/products/sigenergy-sigen-battery.webp" alt="Sigen Battery 产品外观" loading="lazy">
+          </span>
+          <span class="picker-copy"><small>Sigenergy · 其他储能类设备</small><strong>Sigen Battery</strong></span>
+        </label>
+      
+        <label class="compare-picker-card" data-product-card data-brand="EcoFlow" data-category="户储一体机" data-name="powerocean three-phase">
+          <input type="checkbox" value="ecoflow-powerocean" data-product-toggle checked>
+          <span class="picker-check">✓</span>
+          <span class="picker-image">
+            <img src="/competitor-design-intelligence-dashboard/static/img/products/ecoflow-powerocean.jpg" alt="PowerOcean Three-phase 产品外观" loading="lazy">
+          </span>
+          <span class="picker-copy"><small>EcoFlow · 户储一体机</small><strong>PowerOcean Three-phase</strong></span>
+        </label>
+      
+        <label class="compare-picker-card" data-product-card data-brand="EcoFlow" data-category="户储一体机" data-name="ocean 2 three-phase">
+          <input type="checkbox" value="ecoflow-ocean-2" data-product-toggle >
+          <span class="picker-check">✓</span>
+          <span class="picker-image">
+            <img src="/competitor-design-intelligence-dashboard/static/img/products/ecoflow-ocean-2.jpg" alt="OCEAN 2 Three-phase 产品外观" loading="lazy">
+          </span>
+          <span class="picker-copy"><small>EcoFlow · 户储一体机</small><strong>OCEAN 2 Three-phase</strong></span>
+        </label>
+      
+        <label class="compare-picker-card" data-product-card data-brand="EcoFlow" data-category="其他储能类设备" data-name="powerocean dc fit">
+          <input type="checkbox" value="ecoflow-powerocean-dc-fit" data-product-toggle >
+          <span class="picker-check">✓</span>
+          <span class="picker-image">
+            <img src="/competitor-design-intelligence-dashboard/static/img/products/ecoflow-powerocean-dc-fit.jpg" alt="PowerOcean DC Fit 产品外观" loading="lazy">
+          </span>
+          <span class="picker-copy"><small>EcoFlow · 其他储能类设备</small><strong>PowerOcean DC Fit</strong></span>
+        </label>
+      
+        <label class="compare-picker-card" data-product-card data-brand="Huawei FusionSolar" data-category="其他储能类设备" data-name="luna2000-7/14/21-s1">
+          <input type="checkbox" value="huawei-luna2000-s1" data-product-toggle checked>
+          <span class="picker-check">✓</span>
+          <span class="picker-image">
+            <img src="/competitor-design-intelligence-dashboard/static/img/products/huawei-luna2000-s1.png" alt="LUNA2000-7/14/21-S1 产品外观" loading="lazy">
+          </span>
+          <span class="picker-copy"><small>Huawei FusionSolar · 其他储能类设备</small><strong>LUNA2000-7/14/21-S1</strong></span>
+        </label>
+      
+        <label class="compare-picker-card" data-product-card data-brand="Huawei FusionSolar" data-category="其他储能类设备" data-name="luna2000-5/10/15-s0">
+          <input type="checkbox" value="huawei-luna2000-s0" data-product-toggle >
+          <span class="picker-check">✓</span>
+          <span class="picker-image">
+            <img src="/competitor-design-intelligence-dashboard/static/img/products/huawei-luna2000-s0.png" alt="LUNA2000-5/10/15-S0 产品外观" loading="lazy">
+          </span>
+          <span class="picker-copy"><small>Huawei FusionSolar · 其他储能类设备</small><strong>LUNA2000-5/10/15-S0</strong></span>
+        </label>
+      
+        <label class="compare-picker-card" data-product-card data-brand="Huawei FusionSolar" data-category="其他储能类设备" data-name="luna2000-215 series">
+          <input type="checkbox" value="huawei-luna2000-215" data-product-toggle >
+          <span class="picker-check">✓</span>
+          <span class="picker-image">
+            <img src="/competitor-design-intelligence-dashboard/static/img/products/huawei-luna2000-215.png" alt="LUNA2000-215 Series 产品外观" loading="lazy">
+          </span>
+          <span class="picker-copy"><small>Huawei FusionSolar · 其他储能类设备</small><strong>LUNA2000-215 Series</strong></span>
+        </label>
+      
+        <label class="compare-picker-card" data-product-card data-brand="FoxESS" data-category="户储一体机" data-name="h3 smart">
+          <input type="checkbox" value="foxess-h3-smart" data-product-toggle >
+          <span class="picker-check">✓</span>
+          <span class="picker-image">
+            <img src="/competitor-design-intelligence-dashboard/static/img/products/foxess-h3-smart.jpg" alt="H3 Smart 产品外观" loading="lazy">
+          </span>
+          <span class="picker-copy"><small>FoxESS · 户储一体机</small><strong>H3 Smart</strong></span>
+        </label>
+      
+        <label class="compare-picker-card" data-product-card data-brand="FoxESS" data-category="其他储能类设备" data-name="ep11">
+          <input type="checkbox" value="foxess-ep11" data-product-toggle >
+          <span class="picker-check">✓</span>
+          <span class="picker-image">
+            <img src="/competitor-design-intelligence-dashboard/static/img/products/foxess-ep11.jpg" alt="EP11 产品外观" loading="lazy">
+          </span>
+          <span class="picker-copy"><small>FoxESS · 其他储能类设备</small><strong>EP11</strong></span>
+        </label>
+      
+        <label class="compare-picker-card" data-product-card data-brand="FoxESS" data-category="其他储能类设备" data-name="eq4800">
+          <input type="checkbox" value="foxess-eq4800" data-product-toggle >
+          <span class="picker-check">✓</span>
+          <span class="picker-image">
+            <img src="/competitor-design-intelligence-dashboard/static/img/products/foxess-eq4800.jpg" alt="EQ4800 产品外观" loading="lazy">
+          </span>
+          <span class="picker-copy"><small>FoxESS · 其他储能类设备</small><strong>EQ4800</strong></span>
+        </label>
+      
+        <label class="compare-picker-card" data-product-card data-brand="Dyness" data-category="其他储能类设备" data-name="tower pro">
+          <input type="checkbox" value="dyness-tower-pro" data-product-toggle >
+          <span class="picker-check">✓</span>
+          <span class="picker-image">
+            <img src="/competitor-design-intelligence-dashboard/static/img/products/dyness-tower-pro.jpg" alt="Tower Pro 产品外观" loading="lazy">
+          </span>
+          <span class="picker-copy"><small>Dyness · 其他储能类设备</small><strong>Tower Pro</strong></span>
+        </label>
+      
+        <label class="compare-picker-card" data-product-card data-brand="Dyness" data-category="其他储能类设备" data-name="powerbox g3">
+          <input type="checkbox" value="dyness-powerbox-g3" data-product-toggle >
+          <span class="picker-check">✓</span>
+          <span class="picker-image">
+            <img src="/competitor-design-intelligence-dashboard/static/img/products/dyness-powerbox-g3.png" alt="PowerBox G3 产品外观" loading="lazy">
+          </span>
+          <span class="picker-copy"><small>Dyness · 其他储能类设备</small><strong>PowerBox G3</strong></span>
+        </label>
+      
+        <label class="compare-picker-card" data-product-card data-brand="Dyness" data-category="其他储能类设备" data-name="powerbrick pro">
+          <input type="checkbox" value="dyness-powerbrick-pro" data-product-toggle >
+          <span class="picker-check">✓</span>
+          <span class="picker-image">
+            <img src="/competitor-design-intelligence-dashboard/static/img/products/dyness-powerbrick-pro.png" alt="PowerBrick Pro 产品外观" loading="lazy">
+          </span>
+          <span class="picker-copy"><small>Dyness · 其他储能类设备</small><strong>PowerBrick Pro</strong></span>
+        </label>
+      
+        <label class="compare-picker-card" data-product-card data-brand="MARSTEK" data-category="微逆一体机" data-name="venus e 4.0">
+          <input type="checkbox" value="marstek-venus-e-4" data-product-toggle >
+          <span class="picker-check">✓</span>
+          <span class="picker-image">
+            <img src="/competitor-design-intelligence-dashboard/static/img/products/marstek-venus-e-4.avif" alt="VENUS E 4.0 产品外观" loading="lazy">
+          </span>
+          <span class="picker-copy"><small>MARSTEK · 微逆一体机</small><strong>VENUS E 4.0</strong></span>
+        </label>
+      
+        <label class="compare-picker-card" data-product-card data-brand="MARSTEK" data-category="微逆一体机" data-name="jupiter c plus">
+          <input type="checkbox" value="marstek-jupiter-c-plus" data-product-toggle >
+          <span class="picker-check">✓</span>
+          <span class="picker-image">
+            <img src="/competitor-design-intelligence-dashboard/static/img/products/marstek-jupiter-c-plus.avif" alt="JUPITER C Plus 产品外观" loading="lazy">
+          </span>
+          <span class="picker-copy"><small>MARSTEK · 微逆一体机</small><strong>JUPITER C Plus</strong></span>
+        </label>
+      
+        <label class="compare-picker-card" data-product-card data-brand="MARSTEK" data-category="微逆一体机" data-name="venus a">
+          <input type="checkbox" value="marstek-venus-a" data-product-toggle >
+          <span class="picker-check">✓</span>
+          <span class="picker-image">
+            <img src="/competitor-design-intelligence-dashboard/static/img/products/marstek-venus-a.avif" alt="VENUS A 产品外观" loading="lazy">
+          </span>
+          <span class="picker-copy"><small>MARSTEK · 微逆一体机</small><strong>VENUS A</strong></span>
+        </label>
+      
+    </div>
+    <div class="compare-no-result" data-picker-empty hidden>当前筛选下没有产品，请调整品牌、分类或搜索词。</div>
+  </section>
+
+  <section class="comparison-section" id="comparison">
+    <div class="section-heading">
+      <div><p class="overline">SIDE-BY-SIDE SPECIFICATIONS</p><h2>横向规格矩阵</h2><p>“官网未公开”表示本阶段未在品牌官方产品页或 Datasheet 中确认到该项。</p></div>
+      <span>最多同时显示 4 款</span>
+    </div>
+
+    <div class="comparison-empty" data-comparison-empty hidden>
+      <strong>请先选择产品</strong>
+      <p>从上方产品库中选择 2–4 款，即可生成横向参数表。</p>
+    </div>
+
+    <div class="comparison-table-wrap" data-comparison-table>
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th class="comparison-label-head">对比维度</th>
+            
+              <th data-compare-column="anker-solix-x1" >
+                <button class="remove-compare" type="button" data-remove-product="anker-solix-x1" aria-label="移除 Anker SOLIX X1">×</button>
+                <div class="compare-product-image"><img src="/competitor-design-intelligence-dashboard/static/img/products/anker-solix-x1.webp" alt="Anker SOLIX X1 产品外观"></div>
+                <small>Anker SOLIX</small>
+                <strong>Anker SOLIX X1</strong>
+                <span>户储一体机</span>
+              </th>
+            
+              <th data-compare-column="anker-solarbank-3-pro" hidden>
+                <button class="remove-compare" type="button" data-remove-product="anker-solarbank-3-pro" aria-label="移除 Solarbank 3 E2700 Pro">×</button>
+                <div class="compare-product-image"><img src="/competitor-design-intelligence-dashboard/static/img/products/anker-solarbank-3-pro.webp" alt="Solarbank 3 E2700 Pro 产品外观"></div>
+                <small>Anker SOLIX</small>
+                <strong>Solarbank 3 E2700 Pro</strong>
+                <span>微逆一体机</span>
+              </th>
+            
+              <th data-compare-column="anker-solarbank-2-ac" hidden>
+                <button class="remove-compare" type="button" data-remove-product="anker-solarbank-2-ac" aria-label="移除 Solarbank 2 AC">×</button>
+                <div class="compare-product-image"><b>An</b></div>
+                <small>Anker SOLIX</small>
+                <strong>Solarbank 2 AC</strong>
+                <span>微逆一体机</span>
+              </th>
+            
+              <th data-compare-column="sigenergy-sigenstor" >
+                <button class="remove-compare" type="button" data-remove-product="sigenergy-sigenstor" aria-label="移除 SigenStor">×</button>
+                <div class="compare-product-image"><img src="/competitor-design-intelligence-dashboard/static/img/products/sigenergy-sigenstor.webp" alt="SigenStor 产品外观"></div>
+                <small>Sigenergy</small>
+                <strong>SigenStor</strong>
+                <span>户储一体机</span>
+              </th>
+            
+              <th data-compare-column="sigenergy-sigenstack" hidden>
+                <button class="remove-compare" type="button" data-remove-product="sigenergy-sigenstack" aria-label="移除 SigenStack">×</button>
+                <div class="compare-product-image"><img src="/competitor-design-intelligence-dashboard/static/img/products/sigenergy-sigenstack.webp" alt="SigenStack 产品外观"></div>
+                <small>Sigenergy</small>
+                <strong>SigenStack</strong>
+                <span>其他储能类设备</span>
+              </th>
+            
+              <th data-compare-column="sigenergy-sigen-battery" hidden>
+                <button class="remove-compare" type="button" data-remove-product="sigenergy-sigen-battery" aria-label="移除 Sigen Battery">×</button>
+                <div class="compare-product-image"><img src="/competitor-design-intelligence-dashboard/static/img/products/sigenergy-sigen-battery.webp" alt="Sigen Battery 产品外观"></div>
+                <small>Sigenergy</small>
+                <strong>Sigen Battery</strong>
+                <span>其他储能类设备</span>
+              </th>
+            
+              <th data-compare-column="ecoflow-powerocean" >
+                <button class="remove-compare" type="button" data-remove-product="ecoflow-powerocean" aria-label="移除 PowerOcean Three-phase">×</button>
+                <div class="compare-product-image"><img src="/competitor-design-intelligence-dashboard/static/img/products/ecoflow-powerocean.jpg" alt="PowerOcean Three-phase 产品外观"></div>
+                <small>EcoFlow</small>
+                <strong>PowerOcean Three-phase</strong>
+                <span>户储一体机</span>
+              </th>
+            
+              <th data-compare-column="ecoflow-ocean-2" hidden>
+                <button class="remove-compare" type="button" data-remove-product="ecoflow-ocean-2" aria-label="移除 OCEAN 2 Three-phase">×</button>
+                <div class="compare-product-image"><img src="/competitor-design-intelligence-dashboard/static/img/products/ecoflow-ocean-2.jpg" alt="OCEAN 2 Three-phase 产品外观"></div>
+                <small>EcoFlow</small>
+                <strong>OCEAN 2 Three-phase</strong>
+                <span>户储一体机</span>
+              </th>
+            
+              <th data-compare-column="ecoflow-powerocean-dc-fit" hidden>
+                <button class="remove-compare" type="button" data-remove-product="ecoflow-powerocean-dc-fit" aria-label="移除 PowerOcean DC Fit">×</button>
+                <div class="compare-product-image"><img src="/competitor-design-intelligence-dashboard/static/img/products/ecoflow-powerocean-dc-fit.jpg" alt="PowerOcean DC Fit 产品外观"></div>
+                <small>EcoFlow</small>
+                <strong>PowerOcean DC Fit</strong>
+                <span>其他储能类设备</span>
+              </th>
+            
+              <th data-compare-column="huawei-luna2000-s1" >
+                <button class="remove-compare" type="button" data-remove-product="huawei-luna2000-s1" aria-label="移除 LUNA2000-7/14/21-S1">×</button>
+                <div class="compare-product-image"><img src="/competitor-design-intelligence-dashboard/static/img/products/huawei-luna2000-s1.png" alt="LUNA2000-7/14/21-S1 产品外观"></div>
+                <small>Huawei FusionSolar</small>
+                <strong>LUNA2000-7/14/21-S1</strong>
+                <span>其他储能类设备</span>
+              </th>
+            
+              <th data-compare-column="huawei-luna2000-s0" hidden>
+                <button class="remove-compare" type="button" data-remove-product="huawei-luna2000-s0" aria-label="移除 LUNA2000-5/10/15-S0">×</button>
+                <div class="compare-product-image"><img src="/competitor-design-intelligence-dashboard/static/img/products/huawei-luna2000-s0.png" alt="LUNA2000-5/10/15-S0 产品外观"></div>
+                <small>Huawei FusionSolar</small>
+                <strong>LUNA2000-5/10/15-S0</strong>
+                <span>其他储能类设备</span>
+              </th>
+            
+              <th data-compare-column="huawei-luna2000-215" hidden>
+                <button class="remove-compare" type="button" data-remove-product="huawei-luna2000-215" aria-label="移除 LUNA2000-215 Series">×</button>
+                <div class="compare-product-image"><img src="/competitor-design-intelligence-dashboard/static/img/products/huawei-luna2000-215.png" alt="LUNA2000-215 Series 产品外观"></div>
+                <small>Huawei FusionSolar</small>
+                <strong>LUNA2000-215 Series</strong>
+                <span>其他储能类设备</span>
+              </th>
+            
+              <th data-compare-column="foxess-h3-smart" hidden>
+                <button class="remove-compare" type="button" data-remove-product="foxess-h3-smart" aria-label="移除 H3 Smart">×</button>
+                <div class="compare-product-image"><img src="/competitor-design-intelligence-dashboard/static/img/products/foxess-h3-smart.jpg" alt="H3 Smart 产品外观"></div>
+                <small>FoxESS</small>
+                <strong>H3 Smart</strong>
+                <span>户储一体机</span>
+              </th>
+            
+              <th data-compare-column="foxess-ep11" hidden>
+                <button class="remove-compare" type="button" data-remove-product="foxess-ep11" aria-label="移除 EP11">×</button>
+                <div class="compare-product-image"><img src="/competitor-design-intelligence-dashboard/static/img/products/foxess-ep11.jpg" alt="EP11 产品外观"></div>
+                <small>FoxESS</small>
+                <strong>EP11</strong>
+                <span>其他储能类设备</span>
+              </th>
+            
+              <th data-compare-column="foxess-eq4800" hidden>
+                <button class="remove-compare" type="button" data-remove-product="foxess-eq4800" aria-label="移除 EQ4800">×</button>
+                <div class="compare-product-image"><img src="/competitor-design-intelligence-dashboard/static/img/products/foxess-eq4800.jpg" alt="EQ4800 产品外观"></div>
+                <small>FoxESS</small>
+                <strong>EQ4800</strong>
+                <span>其他储能类设备</span>
+              </th>
+            
+              <th data-compare-column="dyness-tower-pro" hidden>
+                <button class="remove-compare" type="button" data-remove-product="dyness-tower-pro" aria-label="移除 Tower Pro">×</button>
+                <div class="compare-product-image"><img src="/competitor-design-intelligence-dashboard/static/img/products/dyness-tower-pro.jpg" alt="Tower Pro 产品外观"></div>
+                <small>Dyness</small>
+                <strong>Tower Pro</strong>
+                <span>其他储能类设备</span>
+              </th>
+            
+              <th data-compare-column="dyness-powerbox-g3" hidden>
+                <button class="remove-compare" type="button" data-remove-product="dyness-powerbox-g3" aria-label="移除 PowerBox G3">×</button>
+                <div class="compare-product-image"><img src="/competitor-design-intelligence-dashboard/static/img/products/dyness-powerbox-g3.png" alt="PowerBox G3 产品外观"></div>
+                <small>Dyness</small>
+                <strong>PowerBox G3</strong>
+                <span>其他储能类设备</span>
+              </th>
+            
+              <th data-compare-column="dyness-powerbrick-pro" hidden>
+                <button class="remove-compare" type="button" data-remove-product="dyness-powerbrick-pro" aria-label="移除 PowerBrick Pro">×</button>
+                <div class="compare-product-image"><img src="/competitor-design-intelligence-dashboard/static/img/products/dyness-powerbrick-pro.png" alt="PowerBrick Pro 产品外观"></div>
+                <small>Dyness</small>
+                <strong>PowerBrick Pro</strong>
+                <span>其他储能类设备</span>
+              </th>
+            
+              <th data-compare-column="marstek-venus-e-4" hidden>
+                <button class="remove-compare" type="button" data-remove-product="marstek-venus-e-4" aria-label="移除 VENUS E 4.0">×</button>
+                <div class="compare-product-image"><img src="/competitor-design-intelligence-dashboard/static/img/products/marstek-venus-e-4.avif" alt="VENUS E 4.0 产品外观"></div>
+                <small>MARSTEK</small>
+                <strong>VENUS E 4.0</strong>
+                <span>微逆一体机</span>
+              </th>
+            
+              <th data-compare-column="marstek-jupiter-c-plus" hidden>
+                <button class="remove-compare" type="button" data-remove-product="marstek-jupiter-c-plus" aria-label="移除 JUPITER C Plus">×</button>
+                <div class="compare-product-image"><img src="/competitor-design-intelligence-dashboard/static/img/products/marstek-jupiter-c-plus.avif" alt="JUPITER C Plus 产品外观"></div>
+                <small>MARSTEK</small>
+                <strong>JUPITER C Plus</strong>
+                <span>微逆一体机</span>
+              </th>
+            
+              <th data-compare-column="marstek-venus-a" hidden>
+                <button class="remove-compare" type="button" data-remove-product="marstek-venus-a" aria-label="移除 VENUS A">×</button>
+                <div class="compare-product-image"><img src="/competitor-design-intelligence-dashboard/static/img/products/marstek-venus-a.avif" alt="VENUS A 产品外观"></div>
+                <small>MARSTEK</small>
+                <strong>VENUS A</strong>
+                <span>微逆一体机</span>
+              </th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          
+            <tr>
+              <th>产品形态</th>
+              
+                <td data-compare-column="anker-solix-x1"  class="">
+                  模块化户用光储系统
+                </td>
+              
+                <td data-compare-column="anker-solarbank-3-pro" hidden class="">
+                  阳台光储一体机
+                </td>
+              
+                <td data-compare-column="anker-solarbank-2-ac" hidden class="">
+                  AC 耦合阳台储能
+                </td>
+              
+                <td data-compare-column="sigenergy-sigenstor"  class="">
+                  5-in-1 户用能源系统
+                </td>
+              
+                <td data-compare-column="sigenergy-sigenstack" hidden class="">
+                  工商业堆叠式储能
+                </td>
+              
+                <td data-compare-column="sigenergy-sigen-battery" hidden class="">
+                  模块化高压电池
+                </td>
+              
+                <td data-compare-column="ecoflow-powerocean"  class="">
+                  三相户用光储系统
+                </td>
+              
+                <td data-compare-column="ecoflow-ocean-2" hidden class="">
+                  三相户用光储系统
+                </td>
+              
+                <td data-compare-column="ecoflow-powerocean-dc-fit" hidden class="">
+                  直流耦合储能改造
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-s1"  class="">
+                  Smart String ESS
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-s0" hidden class="">
+                  Smart String ESS
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-215" hidden class="">
+                  工商业一体化储能柜
+                </td>
+              
+                <td data-compare-column="foxess-h3-smart" hidden class="">
+                  三相混合逆变器
+                </td>
+              
+                <td data-compare-column="foxess-ep11" hidden class="">
+                  低压储能电池
+                </td>
+              
+                <td data-compare-column="foxess-eq4800" hidden class="">
+                  模块化高压储能电池
+                </td>
+              
+                <td data-compare-column="dyness-tower-pro" hidden class="">
+                  堆叠式高压储能电池
+                </td>
+              
+                <td data-compare-column="dyness-powerbox-g3" hidden class="">
+                  低压壁挂 / 落地储能电池
+                </td>
+              
+                <td data-compare-column="dyness-powerbrick-pro" hidden class="">
+                  低压落地储能电池
+                </td>
+              
+                <td data-compare-column="marstek-venus-e-4" hidden class="">
+                  AC 耦合即插即用储能
+                </td>
+              
+                <td data-compare-column="marstek-jupiter-c-plus" hidden class="">
+                  阳台光储一体机
+                </td>
+              
+                <td data-compare-column="marstek-venus-a" hidden class="">
+                  PV / AC 耦合即插即用储能
+                </td>
+              
+            </tr>
+          
+            <tr>
+              <th>系统容量</th>
+              
+                <td data-compare-column="anker-solix-x1"  class="">
+                  5–180 kWh
+                </td>
+              
+                <td data-compare-column="anker-solarbank-3-pro" hidden class="">
+                  2.688–16.128 kWh
+                </td>
+              
+                <td data-compare-column="anker-solarbank-2-ac" hidden class="">
+                  1.6–9.6 kWh
+                </td>
+              
+                <td data-compare-column="sigenergy-sigenstor"  class="">
+                  5.38 / 8.06 kWh 模块化
+                </td>
+              
+                <td data-compare-column="sigenergy-sigenstack" hidden class="">
+                  48.24–253.26 kWh
+                </td>
+              
+                <td data-compare-column="sigenergy-sigen-battery" hidden class="">
+                  5.38 / 8.06 kWh（单模块）
+                </td>
+              
+                <td data-compare-column="ecoflow-powerocean"  class="">
+                  5–45 kWh
+                </td>
+              
+                <td data-compare-column="ecoflow-ocean-2" hidden class="">
+                  5.02–60 kWh
+                </td>
+              
+                <td data-compare-column="ecoflow-powerocean-dc-fit" hidden class="">
+                  5–15 kWh
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-s1"  class="">
+                  6.9 / 13.8 / 20.7 kWh
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-s0" hidden class="">
+                  5 / 10 / 15 kWh
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-215" hidden class="">
+                  215 kWh
+                </td>
+              
+                <td data-compare-column="foxess-h3-smart" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="foxess-ep11" hidden class="">
+                  10.36–41.44 kWh
+                </td>
+              
+                <td data-compare-column="foxess-eq4800" hidden class="">
+                  9.32–41.93 kWh
+                </td>
+              
+                <td data-compare-column="dyness-tower-pro" hidden class="">
+                  7.68–23.04 kWh
+                </td>
+              
+                <td data-compare-column="dyness-powerbox-g3" hidden class="">
+                  10.24–512 kWh
+                </td>
+              
+                <td data-compare-column="dyness-powerbrick-pro" hidden class="">
+                  14.336–716.8 kWh
+                </td>
+              
+                <td data-compare-column="marstek-venus-e-4" hidden class="">
+                  5 kWh
+                </td>
+              
+                <td data-compare-column="marstek-jupiter-c-plus" hidden class="">
+                  2.56–10.24 kWh
+                </td>
+              
+                <td data-compare-column="marstek-venus-a" hidden class="">
+                  2.12–12.72 kWh
+                </td>
+              
+            </tr>
+          
+            <tr>
+              <th>输出功率</th>
+              
+                <td data-compare-column="anker-solix-x1"  class="">
+                  3–36 kW
+                </td>
+              
+                <td data-compare-column="anker-solarbank-3-pro" hidden class="">
+                  1.8 kW
+                </td>
+              
+                <td data-compare-column="anker-solarbank-2-ac" hidden class="">
+                  1.2 kW（离网）
+                </td>
+              
+                <td data-compare-column="sigenergy-sigenstor"  class="">
+                  3–25 kW
+                </td>
+              
+                <td data-compare-column="sigenergy-sigenstack" hidden class="">
+                  0.5C 标称 / 1C 最大
+                </td>
+              
+                <td data-compare-column="sigenergy-sigen-battery" hidden class="">
+                  2.5 / 4 kW（单模块）
+                </td>
+              
+                <td data-compare-column="ecoflow-powerocean"  class="">
+                  最高 12 kW（备电）
+                </td>
+              
+                <td data-compare-column="ecoflow-ocean-2" hidden class="">
+                  6 / 8 / 10 / 12 kW
+                </td>
+              
+                <td data-compare-column="ecoflow-powerocean-dc-fit" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-s1"  class="">
+                  3.5 / 7 / 10.5 kW
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-s0" hidden class="">
+                  2.5 / 5 / 5 kW
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-215" hidden class="">
+                  108 kW
+                </td>
+              
+                <td data-compare-column="foxess-h3-smart" hidden class="">
+                  5–15 kW
+                </td>
+              
+                <td data-compare-column="foxess-ep11" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="foxess-eq4800" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="dyness-tower-pro" hidden class="">
+                  7.68–23.04 kW
+                </td>
+              
+                <td data-compare-column="dyness-powerbox-g3" hidden class="">
+                  10.24 kW（单机最大放电）
+                </td>
+              
+                <td data-compare-column="dyness-powerbrick-pro" hidden class="">
+                  0.5C 推荐
+                </td>
+              
+                <td data-compare-column="marstek-venus-e-4" hidden class="">
+                  3 kW（双向）
+                </td>
+              
+                <td data-compare-column="marstek-jupiter-c-plus" hidden class="">
+                  800 W
+                </td>
+              
+                <td data-compare-column="marstek-venus-a" hidden class="">
+                  1.5 kW（双向 / 备电）
+                </td>
+              
+            </tr>
+          
+            <tr>
+              <th>光伏输入</th>
+              
+                <td data-compare-column="anker-solix-x1"  class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="anker-solarbank-3-pro" hidden class="">
+                  3.6 kW
+                </td>
+              
+                <td data-compare-column="anker-solarbank-2-ac" hidden class="">
+                  最高 2 kW
+                </td>
+              
+                <td data-compare-column="sigenergy-sigenstor"  class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="sigenergy-sigenstack" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="sigenergy-sigen-battery" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="ecoflow-powerocean"  class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="ecoflow-ocean-2" hidden class="">
+                  最高 24 kW
+                </td>
+              
+                <td data-compare-column="ecoflow-powerocean-dc-fit" hidden class="">
+                  最高 15 kW
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-s1"  class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-s0" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-215" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="foxess-h3-smart" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="foxess-ep11" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="foxess-eq4800" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="dyness-tower-pro" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="dyness-powerbox-g3" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="dyness-powerbrick-pro" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="marstek-venus-e-4" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="marstek-jupiter-c-plus" hidden class="">
+                  2.4 kW
+                </td>
+              
+                <td data-compare-column="marstek-venus-a" hidden class="">
+                  2.4 kW
+                </td>
+              
+            </tr>
+          
+            <tr>
+              <th>防护等级</th>
+              
+                <td data-compare-column="anker-solix-x1"  class="">
+                  IP66
+                </td>
+              
+                <td data-compare-column="anker-solarbank-3-pro" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="anker-solarbank-2-ac" hidden class="">
+                  IP65
+                </td>
+              
+                <td data-compare-column="sigenergy-sigenstor"  class="">
+                  IP66
+                </td>
+              
+                <td data-compare-column="sigenergy-sigenstack" hidden class="">
+                  IP66
+                </td>
+              
+                <td data-compare-column="sigenergy-sigen-battery" hidden class="">
+                  IP66
+                </td>
+              
+                <td data-compare-column="ecoflow-powerocean"  class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="ecoflow-ocean-2" hidden class="">
+                  IP66
+                </td>
+              
+                <td data-compare-column="ecoflow-powerocean-dc-fit" hidden class="">
+                  IP65
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-s1"  class="">
+                  IP66
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-s0" hidden class="">
+                  IP66
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-215" hidden class="">
+                  IP55
+                </td>
+              
+                <td data-compare-column="foxess-h3-smart" hidden class="">
+                  IP65
+                </td>
+              
+                <td data-compare-column="foxess-ep11" hidden class="">
+                  IP65
+                </td>
+              
+                <td data-compare-column="foxess-eq4800" hidden class="">
+                  IP65
+                </td>
+              
+                <td data-compare-column="dyness-tower-pro" hidden class="">
+                  IP55
+                </td>
+              
+                <td data-compare-column="dyness-powerbox-g3" hidden class="">
+                  IP65
+                </td>
+              
+                <td data-compare-column="dyness-powerbrick-pro" hidden class="">
+                  IP65
+                </td>
+              
+                <td data-compare-column="marstek-venus-e-4" hidden class="">
+                  IP65
+                </td>
+              
+                <td data-compare-column="marstek-jupiter-c-plus" hidden class="">
+                  IP65
+                </td>
+              
+                <td data-compare-column="marstek-venus-a" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+            </tr>
+          
+            <tr>
+              <th>电池类型</th>
+              
+                <td data-compare-column="anker-solix-x1"  class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="anker-solarbank-3-pro" hidden class="">
+                  LiFePO₄
+                </td>
+              
+                <td data-compare-column="anker-solarbank-2-ac" hidden class="">
+                  LiFePO₄
+                </td>
+              
+                <td data-compare-column="sigenergy-sigenstor"  class="">
+                  LiFePO₄
+                </td>
+              
+                <td data-compare-column="sigenergy-sigenstack" hidden class="">
+                  LiFePO₄
+                </td>
+              
+                <td data-compare-column="sigenergy-sigen-battery" hidden class="">
+                  LiFePO₄ · 314 Ah
+                </td>
+              
+                <td data-compare-column="ecoflow-powerocean"  class="">
+                  LiFePO₄
+                </td>
+              
+                <td data-compare-column="ecoflow-ocean-2" hidden class="">
+                  LiFePO₄
+                </td>
+              
+                <td data-compare-column="ecoflow-powerocean-dc-fit" hidden class="">
+                  LiFePO₄
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-s1"  class="">
+                  LiFePO₄
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-s0" hidden class="">
+                  LiFePO₄
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-215" hidden class="">
+                  LiFePO₄
+                </td>
+              
+                <td data-compare-column="foxess-h3-smart" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="foxess-ep11" hidden class="">
+                  LiFePO₄
+                </td>
+              
+                <td data-compare-column="foxess-eq4800" hidden class="">
+                  LiFePO₄
+                </td>
+              
+                <td data-compare-column="dyness-tower-pro" hidden class="">
+                  LiFePO₄
+                </td>
+              
+                <td data-compare-column="dyness-powerbox-g3" hidden class="">
+                  LiFePO₄
+                </td>
+              
+                <td data-compare-column="dyness-powerbrick-pro" hidden class="">
+                  LiFePO₄
+                </td>
+              
+                <td data-compare-column="marstek-venus-e-4" hidden class="">
+                  LiFePO₄
+                </td>
+              
+                <td data-compare-column="marstek-jupiter-c-plus" hidden class="">
+                  LiFePO₄
+                </td>
+              
+                <td data-compare-column="marstek-venus-a" hidden class="">
+                  LiFePO₄
+                </td>
+              
+            </tr>
+          
+            <tr>
+              <th>尺寸</th>
+              
+                <td data-compare-column="anker-solix-x1"  class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="anker-solarbank-3-pro" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="anker-solarbank-2-ac" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="sigenergy-sigenstor"  class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="sigenergy-sigenstack" hidden class="">
+                  770 × 300 × 363 mm（单模块）
+                </td>
+              
+                <td data-compare-column="sigenergy-sigen-battery" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="ecoflow-powerocean"  class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="ecoflow-ocean-2" hidden class="">
+                  680 × 406.5 × 203 mm（逆变器）
+                </td>
+              
+                <td data-compare-column="ecoflow-powerocean-dc-fit" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-s1"  class="">
+                  590 × 255 × 510–1230 mm
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-s0" hidden class="">
+                  670 × 150 × 600–1320 mm
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-215" hidden class="">
+                  1150 × 1800 × 2100 mm
+                </td>
+              
+                <td data-compare-column="foxess-h3-smart" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="foxess-ep11" hidden class="">
+                  710 × 625 × 147 mm（单机）
+                </td>
+              
+                <td data-compare-column="foxess-eq4800" hidden class="">
+                  570 × 380 × 386–1352 mm
+                </td>
+              
+                <td data-compare-column="dyness-tower-pro" hidden class="">
+                  587 × 310 × 788–1672 mm
+                </td>
+              
+                <td data-compare-column="dyness-powerbox-g3" hidden class="">
+                  710 × 165 × 730 mm
+                </td>
+              
+                <td data-compare-column="dyness-powerbrick-pro" hidden class="">
+                  435 × 235 × 850 mm
+                </td>
+              
+                <td data-compare-column="marstek-venus-e-4" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="marstek-jupiter-c-plus" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="marstek-venus-a" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+            </tr>
+          
+            <tr>
+              <th>重量</th>
+              
+                <td data-compare-column="anker-solix-x1"  class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="anker-solarbank-3-pro" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="anker-solarbank-2-ac" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="sigenergy-sigenstor"  class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="sigenergy-sigenstack" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="sigenergy-sigen-battery" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="ecoflow-powerocean"  class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="ecoflow-ocean-2" hidden class="">
+                  36.5 kg（逆变器）
+                </td>
+              
+                <td data-compare-column="ecoflow-powerocean-dc-fit" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-s1"  class="">
+                  80–216 kg
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-s0" hidden class="">
+                  63.8–163.8 kg
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-215" hidden class="">
+                  ≤2.8 t
+                </td>
+              
+                <td data-compare-column="foxess-h3-smart" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="foxess-ep11" hidden class="">
+                  99 ± 2 kg（单机）
+                </td>
+              
+                <td data-compare-column="foxess-eq4800" hidden class="">
+                  83.5–356.5 kg
+                </td>
+              
+                <td data-compare-column="dyness-tower-pro" hidden class="">
+                  109.5–271.5 kg
+                </td>
+              
+                <td data-compare-column="dyness-powerbox-g3" hidden class="">
+                  100 kg
+                </td>
+              
+                <td data-compare-column="dyness-powerbrick-pro" hidden class="">
+                  115 kg
+                </td>
+              
+                <td data-compare-column="marstek-venus-e-4" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="marstek-jupiter-c-plus" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="marstek-venus-a" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+            </tr>
+          
+            <tr>
+              <th>质保</th>
+              
+                <td data-compare-column="anker-solix-x1"  class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="anker-solarbank-3-pro" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="anker-solarbank-2-ac" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="sigenergy-sigenstor"  class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="sigenergy-sigenstack" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="sigenergy-sigen-battery" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="ecoflow-powerocean"  class="">
+                  15 年
+                </td>
+              
+                <td data-compare-column="ecoflow-ocean-2" hidden class="">
+                  15 年
+                </td>
+              
+                <td data-compare-column="ecoflow-powerocean-dc-fit" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-s1"  class="">
+                  15 年
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-s0" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-215" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="foxess-h3-smart" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="foxess-ep11" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="foxess-eq4800" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="dyness-tower-pro" hidden class="">
+                  10 年 / 15 年可选
+                </td>
+              
+                <td data-compare-column="dyness-powerbox-g3" hidden class="">
+                  10 年
+                </td>
+              
+                <td data-compare-column="dyness-powerbrick-pro" hidden class="">
+                  10 年
+                </td>
+              
+                <td data-compare-column="marstek-venus-e-4" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="marstek-jupiter-c-plus" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="marstek-venus-a" hidden class="">
+                  10 年
+                </td>
+              
+            </tr>
+          
+            <tr>
+              <th>循环寿命</th>
+              
+                <td data-compare-column="anker-solix-x1"  class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="anker-solarbank-3-pro" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="anker-solarbank-2-ac" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="sigenergy-sigenstor"  class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="sigenergy-sigenstack" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="sigenergy-sigen-battery" hidden class="">
+                  10,000 次
+                </td>
+              
+                <td data-compare-column="ecoflow-powerocean"  class="">
+                  6000 次
+                </td>
+              
+                <td data-compare-column="ecoflow-ocean-2" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="ecoflow-powerocean-dc-fit" hidden class="">
+                  6000 次
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-s1"  class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-s0" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-215" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="foxess-h3-smart" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="foxess-ep11" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="foxess-eq4800" hidden class="">
+                  ≥6000 次
+                </td>
+              
+                <td data-compare-column="dyness-tower-pro" hidden class="">
+                  ≥8000 次
+                </td>
+              
+                <td data-compare-column="dyness-powerbox-g3" hidden class="">
+                  ≥8000 次
+                </td>
+              
+                <td data-compare-column="dyness-powerbrick-pro" hidden class="">
+                  ≥8000 次
+                </td>
+              
+                <td data-compare-column="marstek-venus-e-4" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="marstek-jupiter-c-plus" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="marstek-venus-a" hidden class="">
+                  10,000+ 次
+                </td>
+              
+            </tr>
+          
+            <tr>
+              <th>备电切换</th>
+              
+                <td data-compare-column="anker-solix-x1"  class="">
+                  &lt;10 ms
+                </td>
+              
+                <td data-compare-column="anker-solarbank-3-pro" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="anker-solarbank-2-ac" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="sigenergy-sigenstor"  class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="sigenergy-sigenstack" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="sigenergy-sigen-battery" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="ecoflow-powerocean"  class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="ecoflow-ocean-2" hidden class="">
+                  0 ms
+                </td>
+              
+                <td data-compare-column="ecoflow-powerocean-dc-fit" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-s1"  class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-s0" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="huawei-luna2000-215" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="foxess-h3-smart" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="foxess-ep11" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="foxess-eq4800" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="dyness-tower-pro" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="dyness-powerbox-g3" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="dyness-powerbrick-pro" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="marstek-venus-e-4" hidden class="">
+                  &lt;10 ms
+                </td>
+              
+                <td data-compare-column="marstek-jupiter-c-plus" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+                <td data-compare-column="marstek-venus-a" hidden class="is-missing">
+                  官网未公开
+                </td>
+              
+            </tr>
+          
+          <tr class="comparison-price-row">
+            <th>官网售价</th>
+            
+              <td data-compare-column="anker-solix-x1" >
+                <strong>官网未公开 · 获取方案报价</strong><small>官网未公开</small>
+              </td>
+            
+              <td data-compare-column="anker-solarbank-3-pro" hidden>
+                <strong>EUR 999</strong><small>官网公开价</small>
+              </td>
+            
+              <td data-compare-column="anker-solarbank-2-ac" hidden>
+                <strong>官网未公开 · 查看地区售价</strong><small>官网未公开</small>
+              </td>
+            
+              <td data-compare-column="sigenergy-sigenstor" >
+                <strong>官网未公开 · 询价制</strong><small>官网未公开</small>
+              </td>
+            
+              <td data-compare-column="sigenergy-sigenstack" hidden>
+                <strong>官网未公开 · 项目询价</strong><small>官网未公开</small>
+              </td>
+            
+              <td data-compare-column="sigenergy-sigen-battery" hidden>
+                <strong>官网未公开 · 询价制</strong><small>官网未公开</small>
+              </td>
+            
+              <td data-compare-column="ecoflow-powerocean" >
+                <strong>官网未公开 · 免费方案报价</strong><small>官网未公开</small>
+              </td>
+            
+              <td data-compare-column="ecoflow-ocean-2" hidden>
+                <strong>官网未公开 · 免费方案报价</strong><small>官网未公开</small>
+              </td>
+            
+              <td data-compare-column="ecoflow-powerocean-dc-fit" hidden>
+                <strong>官网未公开 · 免费方案报价</strong><small>官网未公开</small>
+              </td>
+            
+              <td data-compare-column="huawei-luna2000-s1" >
+                <strong>官网未公开 · 联系渠道商</strong><small>官网未公开</small>
+              </td>
+            
+              <td data-compare-column="huawei-luna2000-s0" hidden>
+                <strong>官网未公开 · 联系渠道商</strong><small>官网未公开</small>
+              </td>
+            
+              <td data-compare-column="huawei-luna2000-215" hidden>
+                <strong>官网未公开 · 项目询价</strong><small>官网未公开</small>
+              </td>
+            
+              <td data-compare-column="foxess-h3-smart" hidden>
+                <strong>官网未公开 · 询价制</strong><small>官网未公开</small>
+              </td>
+            
+              <td data-compare-column="foxess-ep11" hidden>
+                <strong>官网未公开 · 询价制</strong><small>官网未公开</small>
+              </td>
+            
+              <td data-compare-column="foxess-eq4800" hidden>
+                <strong>官网未公开 · 询价制</strong><small>官网未公开</small>
+              </td>
+            
+              <td data-compare-column="dyness-tower-pro" hidden>
+                <strong>官网未公开 · Purchase Inquiry</strong><small>官网未公开</small>
+              </td>
+            
+              <td data-compare-column="dyness-powerbox-g3" hidden>
+                <strong>官网未公开 · Purchase Inquiry</strong><small>官网未公开</small>
+              </td>
+            
+              <td data-compare-column="dyness-powerbrick-pro" hidden>
+                <strong>官网未公开 · Purchase Inquiry</strong><small>官网未公开</small>
+              </td>
+            
+              <td data-compare-column="marstek-venus-e-4" hidden>
+                <strong>官网未公开 · Where to Buy</strong><small>官网未公开</small>
+              </td>
+            
+              <td data-compare-column="marstek-jupiter-c-plus" hidden>
+                <strong>EUR 599,00</strong><small>官网公开价</small>
+              </td>
+            
+              <td data-compare-column="marstek-venus-a" hidden>
+                <strong>EUR 699,00</strong><small>官网公开价</small>
+              </td>
+            
+          </tr>
+          <tr class="comparison-source-row">
+            <th>官方来源</th>
+            
+              <td data-compare-column="anker-solix-x1" >
+                <a href="https://www.ankersolix.com/eu/x1-energy-storage-system-hes" target="_blank" rel="noopener">查看官网产品页 ↗</a>
+              </td>
+            
+              <td data-compare-column="anker-solarbank-3-pro" hidden>
+                <a href="https://www.ankersolix.com/de/products/a17c5?o_c=de&amp;o_tab=1&amp;s_main=A17C53Z1-20&amp;varId=62616631574877" target="_blank" rel="noopener">查看官网产品页 ↗</a>
+              </td>
+            
+              <td data-compare-column="anker-solarbank-2-ac" hidden>
+                <a href="https://www.ankersolix.com/eu/solar-panel-kit-with-battery/solarbank2ac-a17c2" target="_blank" rel="noopener">查看官网产品页 ↗</a>
+              </td>
+            
+              <td data-compare-column="sigenergy-sigenstor" >
+                <a href="https://www.sigenergy.com/en/products/sigenstor" target="_blank" rel="noopener">查看官网产品页 ↗</a>
+              </td>
+            
+              <td data-compare-column="sigenergy-sigenstack" hidden>
+                <a href="https://eu-store.sigenergy.com/pages/sigenstack" target="_blank" rel="noopener">查看官网产品页 ↗</a>
+              </td>
+            
+              <td data-compare-column="sigenergy-sigen-battery" hidden>
+                <a href="https://www.sigenergy.com/en/products/sigenstor" target="_blank" rel="noopener">查看官网产品页 ↗</a>
+              </td>
+            
+              <td data-compare-column="ecoflow-powerocean" >
+                <a href="https://energy.ecoflow.com/eu/products/powerocean" target="_blank" rel="noopener">查看官网产品页 ↗</a>
+              </td>
+            
+              <td data-compare-column="ecoflow-ocean-2" hidden>
+                <a href="https://energy.ecoflow.com/eu/products/ocean-2-home-battery" target="_blank" rel="noopener">查看官网产品页 ↗</a>
+              </td>
+            
+              <td data-compare-column="ecoflow-powerocean-dc-fit" hidden>
+                <a href="https://energy.ecoflow.com/eu/products/powerocean-dc-fit" target="_blank" rel="noopener">查看官网产品页 ↗</a>
+              </td>
+            
+              <td data-compare-column="huawei-luna2000-s1" >
+                <a href="https://solar.huawei.com/sa-en/products/luna2000-7-14-21-s1/specs/" target="_blank" rel="noopener">查看官网产品页 ↗</a>
+              </td>
+            
+              <td data-compare-column="huawei-luna2000-s0" hidden>
+                <a href="https://solar.huawei.com/en/products/LUNA2000-5-10-15-S0/specs.html" target="_blank" rel="noopener">查看官网产品页 ↗</a>
+              </td>
+            
+              <td data-compare-column="huawei-luna2000-215" hidden>
+                <a href="https://solar.huawei.com/ae-en/products/luna2000-215-series/specs/" target="_blank" rel="noopener">查看官网产品页 ↗</a>
+              </td>
+            
+              <td data-compare-column="foxess-h3-smart" hidden>
+                <a href="https://www.fox-ess.com/products/hybrid-inverter/14" target="_blank" rel="noopener">查看官网产品页 ↗</a>
+              </td>
+            
+              <td data-compare-column="foxess-ep11" hidden>
+                <a href="https://www.fox-ess.com/products/battery/23" target="_blank" rel="noopener">查看官网产品页 ↗</a>
+              </td>
+            
+              <td data-compare-column="foxess-eq4800" hidden>
+                <a href="https://www.fox-ess.com/products/battery/16" target="_blank" rel="noopener">查看官网产品页 ↗</a>
+              </td>
+            
+              <td data-compare-column="dyness-tower-pro" hidden>
+                <a href="https://www.dyness.com/tower-pro-high-voltage-storage-battery-for-household-use" target="_blank" rel="noopener">查看官网产品页 ↗</a>
+              </td>
+            
+              <td data-compare-column="dyness-powerbox-g3" hidden>
+                <a href="https://www.dyness.com/low-voltage-residential-energy-storage-systems-118" target="_blank" rel="noopener">查看官网产品页 ↗</a>
+              </td>
+            
+              <td data-compare-column="dyness-powerbrick-pro" hidden>
+                <a href="https://www.dyness.com/powerbrick-pro-low-voltage-storage-batteries-for-household-use" target="_blank" rel="noopener">查看官网产品页 ↗</a>
+              </td>
+            
+              <td data-compare-column="marstek-venus-e-4" hidden>
+                <a href="https://eu.marstekenergy.com/products/marstek-venus-e-4-0" target="_blank" rel="noopener">查看官网产品页 ↗</a>
+              </td>
+            
+              <td data-compare-column="marstek-jupiter-c-plus" hidden>
+                <a href="https://eu.marstekenergy.com/en-de/products/marstek-jupiter-c-plus-all-in-one" target="_blank" rel="noopener">查看官网产品页 ↗</a>
+              </td>
+            
+              <td data-compare-column="marstek-venus-a" hidden>
+                <a href="https://eu.marstekenergy.com/en-eu/products/marstek-venus-a" target="_blank" rel="noopener">查看官网产品页 ↗</a>
+              </td>
+            
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="comparison-note">数据最近刷新：2026-08-17 05:05 · 价格可能因地区、税费和促销变化，请以链接中的官网实时信息为准。</p>
+  </section>
+
+  </main>
+
+  <footer class="app-footer">
+    <span>DESIGN SIGNAL · PRODUCT INTELLIGENCE V0.1</span>
+    <span>PUBLIC VIEW · 数据由每周监控自动更新</span>
+  </footer>
+  <script src="/competitor-design-intelligence-dashboard/static/js/dashboard.js" defer></script>
+<script src="/competitor-design-intelligence-dashboard/static/js/compare.js" defer></script>
+</body>
+</html>
